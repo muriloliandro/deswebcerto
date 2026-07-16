@@ -1,0 +1,138 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+  text-align: center;
+  padding: 3vw 0 3vw 0;
+}
+header nav ul li{
+  padding: 2vw 0 2vw 0;
+  color: gray;
+}
+/*=== BANNER ===*/
+section.banner h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+section.banner h2 span{
+  color: #458FF6;
+}
+section.banner p{
+  color: gray;
+  padding: 2vw 0 2vw 0;
+}
+section.banner p a{
+  background-color: #458FF6;
+  color: white;
+  padding: 8px 16px 8px 16px;
+  border-radius: 22px;
+}
+section.cuidados{
+  text-align: center;
+  padding: 2vw 1vw 2vw 1vw;
+}
+section.cuidados h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 0 2vw 0;
+}
+section.cuidados h2 span{
+   border-bottom: 2px solid black;
+   padding: 0 0 0.8vw 0;
+   display: inline-block;
+}
+section.cuidados p{
+  color: gray;
+  font-size: 0.69rem;
+  padding: 0 0 2vw 0;
+}
+section.cuidados ul li{
+  border: 1px solid gray;
+  margin: 3vw 10vw 0 10vw;
+  text-align: left;
+  padding: 15px 15px 15px 15px;
+  border-radius: 20px;
+}section.cuidados p a{
+  border:2px solid #458FF6;
+  padding: 10px 20px 10px 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: #458FF6;
+  margin: 10px 0 10px 0;
+}
+section.cuidados p a:hover{
+  background-color: #458FF6;
+  color: aliceblue;
+}section.depoimentos{
+  background-color: #458FF6;
+  color: aliceblue;
+  border-radius: 20px;
+  text-align: center;
+  margin: 12px 12px 12px 12px;
+  padding: 12px 17px 5px 17px;
+}section.depoimentos h2{
+  font-size: 1.7rem;
+}section.depoimentos h2 span{
+  border-bottom: 2px solid aliceblue;
+  display: inline-block;
+  padding: 0 0 0 0;
+  margin-bottom: 20px;
+}footer{
+  text-align: center;
+  padding: 0 10vw 2vw 0;
+  background-color: #458FF6;
+  color: aliceblue;
+
+}footer p{
+  padding: 2vw 0 0 5vw;
+  color: aliceblue;
+}footer ul li{
+  padding: 1vw;
+}
+footer div h4{
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw 3vw 10vw;
+}
+header nav ul{
+  display: flex;
+  gap: 20px;
+}
+header nav ul li:hover{
+  color: black;
+}
+section.banner {
+  display: flex;
+  padding: 3vw 0 3vw 0;
+  gap: 2vw;
+}
+section.cuidados ul{
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+section.cuidados ul li{
+  margin: 0 0 0 0;
+  width: 20%;
+  
+}
+section.depoimentos div{
+  display: flex;
+  text-align: left;
+  gap: 20px;
+}
+section.depoimento div p img{
+  width: 60vw;
+}footer div h4{
+  font-size: 30px;
+}footer{
+  display: flex;
+  align-items: center;
+}
+}
